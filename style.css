@@ -5,6 +5,7 @@
 
 .contactInfo ul {
   display: inline;
+  list-style-type: circle;
   border: 1px;
 }
 
