@@ -9,9 +9,14 @@
 }
 
 .contactInfo > .linkedin {
-  background-color: red;
+  background-color: green;
+  text-align: left;
+}
+
+.contactInfo > .email {
+  text-align: center;
 }
 
 p {
-  color: green;
+  color: blue;
 }
