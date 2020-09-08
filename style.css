@@ -3,7 +3,7 @@
   text-align: center;
 }
 
-.contactInfo{
+.contactInfo li {
   display: inline;
 }
 
