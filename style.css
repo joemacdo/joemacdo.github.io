@@ -6,7 +6,7 @@
 .contactInfo {
   border: 1px solid black;
   text-align: center;
-  display: inline;
+  display: inline-block;
 }
 
 p {
