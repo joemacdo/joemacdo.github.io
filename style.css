@@ -3,10 +3,13 @@
   text-align: center;
 }
 
+.contactInfo {
+  border: 1px;
+}
+
 .contactInfo ul {
   display: inline;
   list-style-type: circle;
-  border: 1px;
 }
 
 p {
