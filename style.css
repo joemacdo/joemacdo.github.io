@@ -5,10 +5,10 @@
 
 .contactInfo {
   border: 1px solid black;
-  text-align: center;
-  display: inline-block;
+  justify-content: space-evenly;
+  display: inline;
 }
 
 p {
-  color: blue;
+  color: red;
 }
