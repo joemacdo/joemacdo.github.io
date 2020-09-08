@@ -5,9 +5,20 @@
 
 .contactInfo {
   border: 1px solid black;
-  text-align: justify;
+}
+
+.linkedin {
+  text-align: left;
+}
+
+.email {
+  text-align: center;
+}
+
+.github {
+  text-align: right;
 }
 
 p {
-  color: blue;
+  color: green;
 }
