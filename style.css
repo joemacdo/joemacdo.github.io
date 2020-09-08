@@ -10,8 +10,9 @@
 
 .contactInfo li {
   display: inline;
+  list-style-type: cirlce;
 }
 
 p {
-  color: red;
+  color: blue;
 }
