@@ -6,8 +6,9 @@
 .contactInfo {
   border: 1px solid black;
   text-align: center;
+  display: inline;
 }
 
 p {
-  color: red;
+  color: blue;
 }
