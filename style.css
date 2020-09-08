@@ -1,5 +1,10 @@
-h1 {
+.name {
+  font-family: "Comic Sans MS", sans-serif;
   text-align: center;
+}
+
+.contactInfo{
+  display: inline;
 }
 
 p {
