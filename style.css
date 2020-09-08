@@ -8,6 +8,10 @@
   text-align: justify;
 }
 
+.contactInfo > .linkedin {
+  background-color: red;
+}
+
 p {
-  color: blue;
+  color: green;
 }
