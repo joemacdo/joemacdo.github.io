@@ -8,6 +8,10 @@
   text-align: center;
 }
 
+.contactInfo ul {
+  display: inline;
+}
+
 p {
-  color: red;
+  color: blue;
 }
