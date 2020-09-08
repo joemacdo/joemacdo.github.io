@@ -4,15 +4,10 @@
 }
 
 .contactInfo {
-  border: 2px solid black;
+  border: 1px solid black;
   text-align: center;
 }
 
-.contactInfo li {
-  display: inline;
-  list-style-type: cirlce;
-}
-
 p {
-  color: blue;
+  color: red;
 }
