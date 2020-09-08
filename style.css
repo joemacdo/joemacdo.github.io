@@ -7,18 +7,18 @@
   border: 1px solid black;
 }
 
-.linkedin {
+.contactInfo .linkedin {
   text-align: left;
 }
 
-.email {
+.contactInfo .email {
   text-align: center;
 }
 
-.github {
+.contactInfo .github {
   text-align: right;
 }
 
 p {
-  color: green;
+  color: red;
 }
