@@ -10,6 +10,7 @@
 
 .contactInfo > .linkedin {
   text-align: left;
+  display: inline;
 }
 
 .contactInfo > .email {
@@ -19,8 +20,9 @@
 
 .contactInfo > .github {
   text-align: right;
+  display: inline;
 }
 
 p {
-  color: blue;
+  color: red;
 }
