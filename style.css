@@ -4,8 +4,9 @@
 }
 
 .contactInfo {
-  border: 1px solid black;
+  border: 1px solid red;
   text-align: justify;
+  display: inline;
 }
 
 .contactInfo > .linkedin {
