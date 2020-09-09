@@ -1,6 +1,6 @@
 header {
-  background-color: blue;
-  text-color: white;
+  background-color: DarkSlateBlue;
+  color: white;
 }
 
 .name {
@@ -18,5 +18,5 @@ header {
 }
 
 p {
-  color: red;
+  color: green;
 }
