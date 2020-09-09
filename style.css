@@ -18,6 +18,11 @@
   background-color: green;
 }
 
+.contactInfo > .github {
+  text-align: right;
+  background-color: yellow;
+}
+
 p {
-  color: red;
+  color: green;
 }
