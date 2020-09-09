@@ -4,24 +4,21 @@
 }
 
 .contactInfo {
-  border: 1px solid red;
+  border: 1px solid black;
   text-align: justify;
   display: inline;
 }
 
 .contactInfo > .linkedin {
-  background-color: red;
   text-align: left;
 }
 
 .contactInfo > .email {
   text-align: center;
-  background-color: green;
 }
 
 .contactInfo > .github {
   text-align: right;
-  background-color: yellow;
 }
 
 p {
