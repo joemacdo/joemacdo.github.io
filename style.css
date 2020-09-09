@@ -36,11 +36,15 @@ header {
   text-align: center;
 }
 
+body {
+  color: DarkSlateBlue;
+}
+
 .aboutMe {
-  border: 1px solid black;
+  border: 1px solid DarkSlateBlue;
   text-align: center;
 }
 
 p {
-  color: green;
+  color: red;
 }
