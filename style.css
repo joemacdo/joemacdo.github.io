@@ -46,18 +46,18 @@ body {
 }
 
 .deltaDetails {
-  line-height: 0.75;
-  color: red;
+  line-height: 0.1;
+  color: blue;
 }
 
 .atlasDetails {
-  line-height: 0.5;
-  color: green;
+  line-height: 0.15;
+  color: red;
 }
 
 .airforceDetails {
-  line-height: 0.25;
-  color: blue;
+  line-height: 0.2;
+  color: red;
 }
 
 
