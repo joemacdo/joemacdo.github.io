@@ -27,7 +27,7 @@ header {
   color: white;
   position: fixed;
   width: 100%;
-  height: 200px;
+  height: 1000px;
 }
 
 .name {
@@ -45,7 +45,6 @@ body {
 }
 
 .aboutMe {
-  margin-top: 300px;
   text-align: center;
 }
 
