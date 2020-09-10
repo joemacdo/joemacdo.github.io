@@ -25,6 +25,7 @@ a:link {
 header {
   background-color: DarkSlateBlue;
   color: white;
+  position: fixed;
 }
 
 .name {
