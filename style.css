@@ -42,8 +42,16 @@ body {
 }
 
 .aboutMe {
-  border: 1px solid DarkSlateBlue;
   text-align: center;
+}
+
+.aboutMe:after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  padding-top: 20px;
+  border-bottom: 1px solid DarkSlateBlue;
 }
 
 .deltaDetails {
@@ -76,7 +84,7 @@ body {
 }
 
 p {
-  color: red;
+  color: green;
 }
 
 .sos {
