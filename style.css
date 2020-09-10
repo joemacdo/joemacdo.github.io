@@ -45,6 +45,22 @@ body {
   text-align: center;
 }
 
+.deltaDetails {
+  line-height: 0.75;
+  color: red;
+}
+
+.atlasDetails {
+  line-height: 0.5;
+  color: green;
+}
+
+.airforceDetails {
+  line-height: 0.25;
+  color: blue;
+}
+
+
 p {
   color: red;
 }
