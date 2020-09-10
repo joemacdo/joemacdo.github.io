@@ -44,7 +44,7 @@ body {
 }
 
 .aboutMe {
-  margin-top: 1000;
+  margin-top: 1000px;
   text-align: center;
 }
 
@@ -87,7 +87,7 @@ body {
 }
 
 p {
-  color: yellow;
+  color: blue;
 }
 
 .sos {
