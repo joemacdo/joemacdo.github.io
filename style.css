@@ -26,6 +26,7 @@ header {
   background-color: DarkSlateBlue;
   color: white;
   position: fixed;
+  width: 100%;
 }
 
 .name {
