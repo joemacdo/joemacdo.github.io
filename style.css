@@ -27,7 +27,6 @@ header {
   color: white;
   position: fixed;
   width: 100%;
-  padding-bottom: 10px;
 }
 
 .name {
@@ -45,7 +44,7 @@ body {
 }
 
 .aboutMe {
-  padding-top: 10px;
+  padding-top: 100px;
   text-align: center;
 }
 
@@ -88,7 +87,7 @@ body {
 }
 
 p {
-  color: green;
+  color: red;
 }
 
 .sos {
