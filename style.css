@@ -30,6 +30,7 @@ header {
 .name {
   font-family: "Comic Sans MS", sans-serif;
   text-align: center;
+  font-size: 2em;
 }
 
 .email {
@@ -47,17 +48,14 @@ body {
 
 .deltaDetails {
   line-height: 0.1;
-  color: blue;
 }
 
 .atlasDetails {
-  line-height: 0.15;
-  color: red;
+  line-height: 0.1;
 }
 
 .airforceDetails {
-  line-height: 0.2;
-  color: red;
+  line-height: 0.1;
 }
 
 
