@@ -1,104 +1,162 @@
-a:link {
-  color: white;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-  a:visited {
-  color: CornSilk;
-  background-color: transparent;
-  text-decoration: none;
-  }
-
-  a:hover {
-  color: red;
-  background-color: transparent;
-  text-decoration: underline;
-  }
-
-  a:active {
-  color: yellow;
-  background-color: transparent;
-  text-decoration: underline;
-  }
-  
-header {
-  background-color: DarkSlateBlue;
-  color: white;
-  position: fixed;
-  width: 100%;
-  height: 200px;
-}
-
-.name {
-  font-family: "Comic Sans MS", sans-serif;
-  text-align: center;
-  font-size: 3em;
-}
-
-.email {
-  text-align: center;
-}
-
 body {
-  color: DarkSlateBlue;
+  background-image: url("./images/field2.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
-.aboutMe {
+h1 {
+  color: red;
+  font-size: 6em;
   text-align: center;
-  margin-top: 200px;
+  margin-bottom: 0;
 }
 
-.aboutMe:after {
-  content: "";
+h2 {
+  color: red;
+  font-size: 2em;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 200px 1fr;
+  grid-template-rows: repeat(7, 210px);
+  row-gap: 20px;
+  column-gap: 10px;
+}
+
+.grid-item img {
+  height: 200px;
+  width: 200px;
+  border: 1px solid red;
+}
+
+.grid-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 0px solid black;
+}
+
+.trophy, .trophy img {
+  height: 200px;
+  width: 200px;
+  border: none;
+}
+
+.dropbtn {
+  background-color: transparent;
+  color: white;
+  padding: 0px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: grey;
+  z-index: 1;
+}
+
+.dropdown-content img {
+  color: black;
+  padding: 5px;
+  text-decoration: none;
   display: block;
-  margin: 0 auto;
-  width: 50%;
-  padding-top: 20px;
-  border-bottom: 1px solid DarkSlateBlue;
+  height: 100px;
+  width: 100px;
 }
 
-.deltaDetails {
-  line-height: 0.1;
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+.dropdown:hover .dropdown-content {display: block;}
+
+#joe {
+  position: relative;
+  animation-name: attack;
+  animation-duration: 2s;
+  animation-delay: 1s;
 }
 
-.atlasDetails {
-  line-height: 0.1;
+@keyframes attack {
+  0%   {left:0px;}
+  50%  {left:50%;}
+  100% {left:0px;}
 }
 
-.airforceDetails {
-  line-height: 0.1;
+#fran {
+  transition: margin-right;
+  transition-duration: 2000ms;
 }
 
-.work > h2 {
-  text-align: center;
+#fran:hover {
+  margin-right: 100%;
 }
 
-.work:after {
-  content: "";
-  display: block;
-  margin: 0 auto;
-  width: 50%;
-  padding-top: 20px;
-  border-bottom: 1px solid DarkSlateBlue;
+
+.animate-r {
+  animation-name: slide-right;
+  animation-duration: 2s;
+  /* Preserve the effect of the animation at ending */
+  animation-fill-mode: forwards;
 }
 
-.education > h2 {
-  text-align: center;
+@keyframes slide-right {
+
+  from {
+    margin-left: 0px;
+  }
+
+  50% {
+    margin-left: 100%;
+  }
+
+  to {
+    margin-left: 0px;
+  }
 }
 
-.sos {
-  line-height: 0.1;
+.animate-l {
+  animation-name: slide-left;
+  animation-duration: 2s;
+  /* Preserve the effect of the animation at ending */
+  animation-fill-mode: forwards;
 }
 
-.ou {
-  line-height: 0.1;
+@keyframes slide-left {
+
+  from {
+    margin-right: 0px;
+  }
+
+  50% {
+    margin-right: 100%;
+  }
+
+  to {
+    margin-right: 0px;
+  }
 }
 
-.upt {
-  line-height: 0.1;
+.owner1 {
+  display: flex;
+  justify-content: flex-start;
 }
 
-.isu {
-  line-height: 0.1;
+#chops {
+  display: flex;
+  justify-content: flex-end;
 }
