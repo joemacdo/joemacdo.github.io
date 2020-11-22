@@ -1,4 +1,4 @@
-body {
+.mainbody {
   background-image: url("./images/field2.png");
   background-repeat: no-repeat;
   background-size: 100%;
@@ -17,6 +17,10 @@ h2 {
   text-align: center;
   margin-top: 5px;
   margin-bottom: 20px;
+}
+
+h3 {
+  background-color: white;
 }
 
 .grid-container {
@@ -88,7 +92,7 @@ h2 {
   position: relative;
   animation-name: attack;
   animation-duration: 2s;
-  animation-delay: 1s;
+  animation-delay: 2500ms;
 }
 
 @keyframes attack {
